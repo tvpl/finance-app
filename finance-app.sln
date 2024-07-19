@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{94453229-B08
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finance.Core", "src\Finance.Core\Finance.Core.csproj", "{7116550D-35F9-4398-8774-86B7D4F4D0B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finance.Infra", "src\Finance.Infra\Finance.Infra.csproj", "{440BFAF2-EA84-42E9-A14B-F2989605BC5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finance.Api", "src\Finance.Api\Finance.Api.csproj", "{6F88B71B-52A9-4604-A384-F46765CBF865}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,18 @@ Global
 		{7116550D-35F9-4398-8774-86B7D4F4D0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7116550D-35F9-4398-8774-86B7D4F4D0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7116550D-35F9-4398-8774-86B7D4F4D0B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440BFAF2-EA84-42E9-A14B-F2989605BC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440BFAF2-EA84-42E9-A14B-F2989605BC5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440BFAF2-EA84-42E9-A14B-F2989605BC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440BFAF2-EA84-42E9-A14B-F2989605BC5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F88B71B-52A9-4604-A384-F46765CBF865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F88B71B-52A9-4604-A384-F46765CBF865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F88B71B-52A9-4604-A384-F46765CBF865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F88B71B-52A9-4604-A384-F46765CBF865}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7116550D-35F9-4398-8774-86B7D4F4D0B2} = {94453229-B087-4C43-A1C4-6066B63D71F7}
+		{440BFAF2-EA84-42E9-A14B-F2989605BC5D} = {94453229-B087-4C43-A1C4-6066B63D71F7}
+		{6F88B71B-52A9-4604-A384-F46765CBF865} = {94453229-B087-4C43-A1C4-6066B63D71F7}
 	EndGlobalSection
 EndGlobal
